@@ -12,7 +12,7 @@ target and view the dev console when browsing to one of the provided
 For example:
 
 ```bash
-lein cljsbuild advanced once
+lein cljsbuild once advanced
 cd resources/public/advanced
 python -m SimpleHTTPServer
 # then browse to http://localhost:8000
